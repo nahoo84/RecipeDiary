@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/* ---------------------------
+    riset
+------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+
+}
+body{
+    color: #333;
+    max-width: 100%;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+img{
+    vertical-align: bottom;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* ---------------------------
+    header設定
+------------------------------*/
+.main-visual img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center top;
+    margin-bottom: 80px;
+}
+
+/* ---------------------------
+  main設定
+------------------------------*/
+main h1,p{
+    text-align: center;
+    line-height: 1.8;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+main p{
+    margin-bottom: 80px;
+}
+
+.photo ul{
+    display: flex;
+    margin-bottom: 60px;
+}
+.photo li{
+    width: calc(100%/3);
+}
+.photo li img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+/* ---------------------------
+    nav設定
+------------------------------*/
+nav{
+    text-align: center;
+}
+.recipe a{
+    display: inline-block;
+    padding: 20px 55px;
+    border: 1px solid #333;
+    margin-bottom:80px;
+    color: #333;
+}
+/* ---------------------------
+    footer設定
+------------------------------*/
+.link ul{
+    display: flex;
+    justify-content: center;
+}
+.link li{
+    padding: 0 8px;
+    margin-bottom: 10px;
+}
+.link a{
+    color: #333;
+    text-decoration: underline;
+}
